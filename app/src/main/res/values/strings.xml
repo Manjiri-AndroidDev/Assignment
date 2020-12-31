@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="courses">Courses</string>
+    <string name="invite">Invite Friends</string>
+    <string name="contact">Contact Us</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sentence">Share your awesome learning experience with your friends</string>
+    <string name="invitenow">Invite via</string>
+    <string name="feedbacktxt">We\'d love to hear from you</string>
+    <string name="queriestxt">For all kinds of queries realted to course, zenclass and other platform related information</string>
+    <string name="email">Email</string>
+    <string name="reply">You will get a replyback from us within 48 hours</string>
+    <string name="time">(9AM-9PM)</string>
+    <string name="chat">Chat with us</string>
+    <string name="follow">Follow us</string>
+    <string name="session1">Java - Session 01 - Introduction to Java</string>
+    <string name="session2">Java - Session 02 - Java History</string>
+    <string name="session3">Java - Session 03 - Java Features</string>
+    <string name="session4">Java - Session 04 - Java Installation</string>
+    <string name="session5">Java - Session 05 - Java Hello World</string>
+    <string name="session6">Java - Session 06 - Java Hello World Explanation</string>
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoursesFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/relativelayout">
+
+      <VideoView
+          android:id="@+id/video_player"
+          android:layout_width="wrap_content"
+          android:layout_height="200dp" />
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+         android:id="@+id/scrollview"
+         android:layout_below="@+id/video_player">
+
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beginner Module"
+                android:textSize="20dp"
+                android:textColor="@android:color/black">
+            </TextView>
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_one"
+                android:text="@string/session1"
+                android:background="@drawable/button_shape"
+                android:elevation="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/check"
+                android:gravity="start"></Button>
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_two"
+                android:text="@string/session2"
+                android:background="@drawable/button_shape"
+                android:elevation="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/check"
+                android:textAlignment="textStart"
+                android:gravity="start"></Button>
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_three"
+                android:text="@string/session3"
+                android:background="@drawable/button_shape"
+                android:elevation="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/check"
+                android:gravity="start"></Button>
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_four"
+                android:text="@string/session4"
+                android:background="@drawable/button_shape"
+                android:elevation="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/check"
+                android:gravity="start"></Button>
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_five"
+                android:text="@string/session5"
+                android:background="@drawable/button_shape"
+                android:elevation="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/check"
+                android:gravity="start"></Button>
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_six"
+                android:text="@string/session6"
+                android:background="@drawable/button_shape"
+                android:elevation="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/check"
+                android:gravity="start"></Button>
+
+         </LinearLayout>
+      </ScrollView>
+
+   </RelativeLayout>
+</FrameLayout>
